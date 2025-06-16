@@ -1,5 +1,7 @@
 # LaMP-Cap: Personalized Scientific Figure Captioning Dataset
 ---
+This is the Github repo of the arXiv preprint paper, [LaMP-Cap: Personalized Figure Caption Generation With Multimodal Figure Profiles](https://arxiv.org/abs/2506.06561).
+
 LaMP-Cap is an extension of the [SciCap dataset](https://aclanthology.org/2021.findings-emnlp.277/), designed specifically for **personalized and context-aware scientific figure caption generation**. Unlike traditional caption datasets, LaMP-Cap provides not only target figures and their metadata, but also **profile figures** from the same scientific paper, enabling research into leveraging multimodal context for improved captioning.
 
 LaMP-Cap is intended for **non-commercial research only** and is released under the [CC BY-NC-SA 4.0 license](http://creativecommons.org/licenses/by-nc-sa/4.0/). By using LaMP-Cap, you agree to the terms in the license.
@@ -11,7 +13,7 @@ LaMP-Cap is intended for **non-commercial research only** and is released under 
 ```
 @article{ng2025lamp,
   title={LaMP-Cap: Personalized Figure Caption Generation With Multimodal Figure Profiles},
-  author={Ng, Ho Yin'Sam' and Hsu, Ting-Yao and Anantha Ramakrishnan, Aashish and Kveton, Branislav and Lipka, Nedim and Dernoncourt, Franck and Lee, Dongwon and Yu, Tong and Kim, Sungchul and Rossi, Ryan A and others},
+  author={Ng, 'Sam' Ho Yin and Hsu, Ting-Yao and Anantha Ramakrishnan, Aashish and Kveton, Branislav and Lipka, Nedim and Dernoncourt, Franck and Lee, Dongwon and Yu, Tong and Kim, Sungchul and Rossi, Ryan A and Huang, 'Kenneth' Ting-hao},
   journal={arXiv preprint arXiv:2506.06561},
   year={2025}
 }
@@ -25,9 +27,9 @@ LaMP-Cap is curated from the [SciCap Challenge Dataset](https://huggingface.co/d
 ![Profile Figures Distribution](img/fig_profile-dist.png)
 
 
-## Download the SciCap Dataset
+## Download the SciCap Challenge Dataset
 ---
-You can dowload the original SciCap dataset here: [Download Link](https://github.com/tingyaohsu/SciCap/blob/main/README.md) in the "Download the Dataset"
+You can dowload the SciCap Challenge dataset from Hugging Face here: [Download Link](https://huggingface.co/datasets/CrowdAILab/scicap).
 
 Our LaMP-Cap data is based on metadata files from the SciCap Challenge dataset. Each arXiv paper groups its figures together. We randomly picked one figure per paper as the target, and the rest became profile figures. Our metadata only includes papers with at least two figures (so each target has at least one profile figure). This means only part of the original SciCap dataset is included in our data. Our metadata files help filter and organize figures for personalized caption generation in our use case.
 
@@ -40,7 +42,7 @@ So in this github you can find the following:
 ├── README.md
 ├── img                                   # Contains related table/figures from our arXiv paper
 ├── metadata                              # Contains the annotations for Dataset splits
-    ├── train-metadata.json               #target-profile pairing metadata for training set
+    ├── train-metadata.json               #target-profile pairing metadata for training set
     ├── test-metadata.json                #target-profile pairing metadata for test set 
     └── val-metadata.json                 #target-profile pairing metadata for validation set
 ```
