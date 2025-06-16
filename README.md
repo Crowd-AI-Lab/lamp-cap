@@ -22,7 +22,7 @@ LaMP-Cap is intended for **non-commercial research only** and is released under 
 ---
 LaMP-Cap is curated from the [SciCap Challenge Dataset](https://huggingface.co/datasets/CrowdAILab/scicap) and focuses on personalized captioning, where **profile figures** (related images and captions from the same paper) provide rich context for the target figure. This design supports the study of **context-aware and user-personalized caption generation** in scientific domains.
 
-![Profile Figures Distribution](img\fig_profile-dist.png)
+![Profile Figures Distribution](img/fig_profile-dist.png)
 
 
 ## Download the SciCap Dataset
@@ -100,7 +100,7 @@ An actual JSON object from LaMP-Cap:
 The caption quality was measured by BLEU and ROUGE score, using the test set of the corresponding data collection as a reference.
 We measure the data for the similarity test from the generated caption against the original caption. We also measure the performance with variations such as no profile, 1 profile and all profiles.
 
-![Profile Figures Distribution](img\table_generation-result.png)
+![Profile Figures Distribution](img/table_generation-result.png)
 
 ---
 
