@@ -11,7 +11,7 @@ LaMP-Cap is intended for **non-commercial research only** and is released under 
 ```
 @article{ng2025lamp,
   title={LaMP-Cap: Personalized Figure Caption Generation With Multimodal Figure Profiles},
-  author={Ng, Ho Yin'Sam' and Hsu, Ting-Yao and Ramakrishnan, Aashish Anantha and Kveton, Branislav and Lipka, Nedim and Dernoncourt, Franck and Lee, Dongwon and Yu, Tong and Kim, Sungchul and Rossi, Ryan A and others},
+  author={Ng, Ho Yin'Sam' and Hsu, Ting-Yao and Anantha Ramakrishnan, Aashish and Kveton, Branislav and Lipka, Nedim and Dernoncourt, Franck and Lee, Dongwon and Yu, Tong and Kim, Sungchul and Rossi, Ryan A and others},
   journal={arXiv preprint arXiv:2506.06561},
   year={2025}
 }
