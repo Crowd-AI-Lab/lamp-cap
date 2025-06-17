@@ -2,7 +2,7 @@
 ---
 This is the Github repo of the arXiv preprint paper, [LaMP-Cap: Personalized Figure Caption Generation With Multimodal Figure Profiles](https://arxiv.org/abs/2506.06561).
 
-LaMP-Cap is an extension of the [SciCap dataset](https://aclanthology.org/2021.findings-emnlp.277/), designed specifically for **personalized and context-aware scientific figure caption generation**. Unlike traditional caption datasets, LaMP-Cap provides not only target figures and their metadata, but also **profile figures** from the same scientific paper, enabling research into leveraging multimodal context for improved captioning.
+LaMP-Cap was built based on [SciCap Challenge dataset](https://huggingface.co/datasets/CrowdAILab/scicap), designed specifically for **personalized and context-aware scientific figure caption generation**. Unlike traditional caption datasets, LaMP-Cap provides not only target figures and their metadata, but also **profile figures** from the same scientific paper, enabling research into leveraging multimodal context for improved captioning.
 
 LaMP-Cap is intended for **non-commercial research only** and is released under the [CC BY-NC-SA 4.0 license](http://creativecommons.org/licenses/by-nc-sa/4.0/). By using LaMP-Cap, you agree to the terms in the license.
 
